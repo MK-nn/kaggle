@@ -16,7 +16,7 @@ $ pip install graphviz
 ```
 from sklearn import tree
 
-// max_depth は、慣習的な感じで分類:5、回帰:1くらいがいいらしい
+// max_depth は、慣習的に分類は5、回帰は1くらいがいいらしい
 decision_tree = tree.DecisionTreeClassifier(max_depth=5).fit(
     independent_variables, dependent_variables)
 
